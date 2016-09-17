@@ -1,6 +1,6 @@
 int circleX[];
 int circleY[];
-int numCircles = 10;
+int numCircles = 10000;
 
 void setup()
 {
@@ -10,14 +10,15 @@ void setup()
  
   for(int i=0; i< numCircles; i++)
   {
-    circleX[i] = (int)random(0,width);
-    circleY[i] = (int)random(0,height);
+    circleX[i] = (int)random(10,width);
+    circleY[i] = (int)random(10,height);
   }
 }
  
 void draw()
 {
-  background(0); 
+  background(1000); 
+  random(100,200);
  
   for(int i=0; i< numCircles; i++)
   {
