@@ -1,6 +1,6 @@
 int circleX[];
 int circleY[];
-int numCircles = 10000;
+int numCircles = 1000;
 
 void setup()
 {
@@ -18,7 +18,7 @@ void setup()
 void draw()
 {
   background(1000); 
-  random(100,200);
+  fill(300,300,50);
  
   for(int i=0; i< numCircles; i++)
   {
