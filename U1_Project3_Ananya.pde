@@ -17,7 +17,7 @@ void setup()
  
 void draw()
 {
-  background(1000); 
+  background(7000); 
   fill(300,300,50);
  
   for(int i=0; i< numCircles; i++)
